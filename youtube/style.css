@@ -1,0 +1,336 @@
+html{
+  scroll-behavior: smooth;
+}
+body{
+  margin: 0;
+  padding-top: 80px;
+  padding-right: 24px;
+  padding-left: 80px ; 
+  background-color: rgb(255, 252, 252);
+  font-family: roboto;
+  
+}
+.head{
+  height: 55px;
+ display: flex;
+  flex-direction: start;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background-color: white;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: rgb(223, 201, 201);
+  
+
+
+}
+.your{
+height: 35px;
+  object-fit: cover;
+}
+.your1{
+  height: 35px;
+    object-fit: cover;
+    margin-right: 16px;
+  }
+
+.left{
+
+  width: 250px;
+  padding-left: 15px;
+  margin-right: 90px;
+}
+.middle{
+  
+flex:1;
+  height: 50px;
+  padding-left: 20px;
+  padding-top: 14px;
+
+
+}
+.right{
+  padding-right: 20px;
+
+width: 250px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+
+}
+p{
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.pushpa{
+
+width: 100%;
+
+
+
+  object-fit: cover;
+  margin-bottom: 8px;
+  
+}
+.pushpa2{
+  height: 283px;
+  margin-top: -17px;
+  
+}
+.search2{
+  padding: 8px;
+  padding-left: 20px;
+  padding-top: 10px;
+ 
+ width: 480px;
+  box-shadow: inset 1px 2px 3px rgba(0,0,0, 0.05);
+  border-width: 1px;
+  
+}
+.search2::placeholder{
+  font-size: 14px;
+}
+
+.options{
+  height: 24px;
+}
+.notify{
+  height: 24px;
+}
+.profile{
+  height: 29px;
+  width: 32px;
+  border-radius: 55%;
+}
+.adder{
+  height: 29px;
+  width: 40px;
+
+}
+.pus{
+  height: 250px;
+}
+.voice{
+ 
+  height: 27px;
+  width: 25px;
+  border-color: white;
+  margin-bottom: -7px;
+}
+.glass{
+  height: 18px;
+  width: 35px;
+  margin-top: 1px;
+  margin-right: 5px;
+  padding-top: 4pxs;
+  
+}
+
+.ser{
+  padding-top: 3px;
+  padding-bottom: 8px;
+  border-radius: 0%;
+  border: 1px solid black;
+  margin-left: -1px;
+  margin-right: 7px;
+  position:relative;
+  
+}
+.ser .tooltip,
+.speaker .tooltip,
+.upload .tooltip,
+.apps .tooltip,
+.note .tooltip,
+.pro .tooltip{
+  position:absolute;
+  background-color: gray;
+  color: white;
+  padding: 4px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.ser:hover .tooltip{
+  opacity: 1;
+}
+.also{
+  font-weight: bold;
+}
+.content{
+
+
+ margin-bottom: 6px;
+
+ font-weight: 200px;
+ margin-top: 0px;
+
+ 
+
+}
+.ser ,
+.speaker, .upload, .apps ,.note ,.pro
+{
+
+  position: relative;
+  
+}
+.ser:hover .tooltip ,
+.speaker:hover .tooltip,
+.upload:hover .tooltip,
+.apps:hover .tooltip,
+.note:hover .tooltip,
+.pro:hover .tooltip{
+  opacity: 1;
+
+}
+
+.pic{
+  height: 35px;
+  width: 35px;
+ 
+  border-radius: 50%;
+
+}
+.Img{
+ 
+
+  vertical-align: top;
+  margin-right: 5px;
+  padding-top: 10px;
+  
+}
+.speaker{
+
+  border: none;
+  border-radius: 50%;
+
+}
+
+
+  
+
+.Author{
+  margin-bottom: 6px;
+}
+.sub{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.harsh{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+row-gap: 29px ;
+ 
+}
+@media (max-width:1200px) {
+  .harsh{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width:1201px) and (max-width:1500px)  {
+  .harsh{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+
+.sidebar{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  background-color: white;
+  z-index: 200;
+  width: 60px;
+}
+.sidebarlink{
+
+  height: 80px;
+  display: flex;
+cursor: pointer;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+.sidebarlink:hover{
+  background-color: rgb(227, 221, 221);
+}
+.sidebarlink div{
+  font-size: 10px;
+  margin-left: 8px;
+  margin-bottom: 5px;
+}
+.mainimage{
+position: relative;
+
+}
+.timer{
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  right: 13px;
+  padding: 4px;
+  font-weight: 400;
+}
+.timer2{
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 37px;
+  right: 13px;
+  padding: 4px;
+  font-weight: 400;
+}
+.note{
+  position: relative;
+}
+.number{
+  background-color: rgba(209, 2, 2, 0.934);
+  border-radius: 50%;
+  position: absolute;
+  height: 14px;
+  width: 11px;
+padding-bottom: 1px;
+padding-left: 1px;
+
+font-size:smaller;
+font-weight: 400;
+  padding-left: 4px;
+  color: white;
+  top: -2px;
+  right: -3px;
+}
+.bars{
+height: 25px;
+margin-left: 9px;
+margin-bottom: 6px;
+}
+.bars1{
+ 
+  height: 40px;
+  margin-top: 20px;
+  
+ 
+}
+.special{
+  padding-bottom: 9px;
+
+}
+.hi{
+ 
+
+}
